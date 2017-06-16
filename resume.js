@@ -32,6 +32,7 @@ for(var i = 0; i < interests.length; i++) {
 function displayPosition(position, company, description) {
    console.log(position + ' at ' + company + description);
 } ;
+//"Extra-Credit Version"
 console.log('Jobs I\'ve had before:');
 for(var i = 0; i < jobs.length; i++) {
     console.log(jobs[i].position + ' at ' + jobs[i].company + ' - ' + jobs[i].description);
